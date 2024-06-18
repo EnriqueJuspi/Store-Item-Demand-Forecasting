@@ -12,11 +12,18 @@ This repository contains code for participating in a demand forecasting competit
 ## Project Structure
 - **Notebooks**: Jupyter notebook (`store-item-demand-forecasting.ipynb`) for data exploration, feature engineering, model training, and evaluation.
 - **Datasets**
+- **Submission (`submission.csv`)**: Submission file
 
 ## Dataset
 The dataset includes:
 - **Train Data (`train.csv`)**: Historical sales records for 10 stores and 50 items.
 - **Test Data (`test.csv`)**: Data for predicting sales over a future period.
+
+## Data fields
+- **Date** - Date of the sale data. There are no holiday effects or store closures.
+- **Store** - Store ID
+- **Item** - Item ID
+- **Sales** - Number of items sold at a particular store on a particular date.
 
 ## Author
 - <b>[LinkedIn](https://www.linkedin.com/in/enrique-juspi-b1b5922a6/)</b>
